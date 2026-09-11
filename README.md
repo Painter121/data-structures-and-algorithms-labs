@@ -1,30 +1,36 @@
 # Data Structures and Algorithms Labs
 
-คัด lab ที่มี implementation: GraphMST, DoublyLinkedList, CheckBalance2, BinarySearchTree2, singlyLinkList และ Sort
-แสดงการฝึกกราฟ, linked list, stack, tree และ sorting; เก็บโค้ดเดิม ไม่เปลี่ยนเป็น implementation ใหม่
+รวมงานแลปที่ทำตอนเรียนวิชา **04-061-212 Data Structures and Algorithms Laboratory** เขียนด้วย C++ ตั้งแต่ linked list, stack และ binary search tree ไปจนถึง sorting และกราฟ
 
-GraphMST มีหัวไฟล์ระบุรายวิชา **04-061-212 Data Structures and Algorithms Laboratory**
-และผู้จัดทำร่วมสามคน รวม Phuriphat Malison จึงเป็นงานกลุ่มและคงเครดิตเดิมไว้
-บางไฟล์อื่นไม่ระบุผู้เขียน จัดเป็นงานที่พบในคลังเรียน ไม่อ้างว่าทั้งหมดสร้างคนเดียว
+## งานในวิชานี้
 
-เปิดแต่ละ main.cpp เป็นโปรแกรมแยก ใช้ Code::Blocks หรือ g++:
+| Lab | สิ่งที่ทำ |
+|---|---|
+| [Singly Linked List](singlyLinkList/main.cpp) | ฝึกจัดการข้อมูลด้วยลิงก์ลิสต์ทางเดียว |
+| [Doubly Linked List](DoublyLinkedList/main.cpp) | ฝึกจัดการโหนดที่เชื่อมกันทั้งด้านหน้าและด้านหลัง |
+| [Stack — Check Balance](CheckBalance2/main.cpp) | ใช้ stack ตรวจว่ามีวงเล็บเปิดและปิดครบคู่หรือไม่ |
+| [Binary Search Tree](BinarySearchTree2/main.cpp) | ฝึกจัดเก็บและจัดการข้อมูลในต้นไม้ค้นหาแบบทวิภาค |
+| [Sorting](Sort/main.cpp) | เปรียบเทียบเวลาของ Selection Sort กับ Insertion Sort โดยใช้ข้อมูลชุดเดียวกัน |
+| [Graph — Minimum Spanning Tree](GraphMST/main.cpp) | หาต้นไม้แผ่ทั่วที่มีน้ำหนักรวมน้อยที่สุดในกราฟ |
+
+## วิธีรัน
+
+แต่ละโฟลเดอร์เป็นคนละโปรแกรม เปิด `main.cpp` ของ lab ที่ต้องการใน Code::Blocks แล้ว Build & Run ได้เลย
+
+ถ้าใช้ g++ ให้เข้าโฟลเดอร์ของ lab นั้นก่อน เช่น:
 
 ```sh
+cd GraphMST
 g++ -std=c++11 main.cpp -o lab
 ./lab
 ```
 
-ยังไม่ได้ compile ใหม่เพราะไม่พบ g++ ใน PATH บางไฟล์ใช้ encoding ภาษาไทยเดิม
-โค้ดเป็นงานเรียน อาจมีข้อจำกัดเรื่อง input และ edge cases
+บน Windows ใช้ `.\lab.exe` เพื่อเปิดโปรแกรมหลังคอมไพล์
 
+## งานกลุ่ม
 
-Repository แยกตามวิชา/หัวข้องานเรียน คงโค้ดและเครดิตเดิมไว้ ดูที่มาไฟล์ใน [provenance.json](provenance.json)
+Lab Graph, Binary Search Tree และ Sorting ทำร่วมกันโดย:
 
-## เปิดแต่ละ lab
-
-- [Graph — Minimum Spanning Tree](GraphMST/main.cpp)
-- [Doubly Linked List](DoublyLinkedList/main.cpp)
-- [Stack — Balanced Parentheses](CheckBalance2/main.cpp)
-- [Binary Search Tree](BinarySearchTree2/main.cpp)
-- [Singly Linked List](singlyLinkList/main.cpp)
-- [Sorting](Sort/main.cpp)
+- Phuriphat Malison
+- Nawadon Srikhao
+- Chotiphat Suwannawong
