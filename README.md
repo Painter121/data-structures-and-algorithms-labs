@@ -6,7 +6,7 @@
 
 ## Lab overview
 
-| Lab | แนวคิดที่ฝึก | สิ่งที่โปรแกรมทำ |
+| Lab | แนวคิดที่ฝึก | สิ่งที่โปรแกรมทำ | 
 |---|---|---|
 | [Singly Linked List](singlyLinkList/main.cpp) | Node, pointer, traversal | เพิ่ม ลบ ค้นหา นับ และทำลายลิสต์ |
 | [Doubly Linked List](DoublyLinkedList/main.cpp) | Previous/next links | เพิ่มและลบโหนดตามตำแหน่ง เดินดูข้อมูลและค้นหา |
