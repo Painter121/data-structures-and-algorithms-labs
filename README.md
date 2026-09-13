@@ -72,10 +72,28 @@ g++ -std=c++11 -O2 main.cpp -o sort_lab
 | Insertion Sort | O(n²) โดยเฉลี่ย, O(n) กรณีข้อมูลเรียงอยู่แล้ว | O(1) |
 | Prim's MST | O((V + E) log V) ด้วย priority queue | O(V + E) |
 
-## งานกลุ่ม
+## ผู้จัดทำและผู้ร่วมพัฒนา (Collaborators)
 
-Lab Graph, Binary Search Tree และ Sorting ทำร่วมกันโดย:
+<table>
+  <tr>
+    <td align="center" valign="top" width="200">
+      <a href="https://github.com/Painter121">
+        <img src="https://github.com/Painter121.png?size=120" width="100" height="100" alt="Painter121"><br>
+        <strong>@Painter121</strong>
+      </a>
+    </td>
+    <td align="center" valign="top" width="200">
+      <a href="https://github.com/Happym0sttt">
+        <img src="https://github.com/Happym0sttt.png?size=120" width="100" height="100" alt="Happym0sttt"><br>
+        <strong>@Happym0sttt</strong>
+      </a>
+    </td>
+  </tr>
+</table>
 
-- Phuriphat Malison
+Lab Graph, Binary Search Tree และ Sorting ในรายวิชาทำร่วมกันโดย:
+
+- Phuriphat Malison ([@Painter121](https://github.com/Painter121))
 - Nawadon Srikhao
 - Chotiphat Suwannawong
+
