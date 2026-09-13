@@ -93,6 +93,8 @@ g++ -std=c++11 -O2 main.cpp -o sort_lab
   </tr>
 </table>
 
+<sub>โปรเจกต์นี้ร่วมกันจัดทำและพัฒนาโดย <strong>@Painter121</strong> และ <strong>@Happym0sttt</strong></sub>
+
 </div>
 
 
